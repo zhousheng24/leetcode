@@ -31,7 +31,7 @@
 <div><div>Related Topics</div><div><li>贪心</li><li>数组</li><li>动态规划</li></div></div><br><div><li>👍 2433</li><li>👎 0</li></div>
 
 # Solution
-## 1. 贪心
+## 1. DFS
 ### Java
 ```java
 class Solution {
@@ -69,27 +69,24 @@ class Solution {
         // 1 <= nums.length <= 10⁴
         // 0 <= nums[i] <= 10⁵
         int n = nums.length;
-        // dp[i]表示下标为i的位置是否可到达
-        boolean[] dp = new boolean[n];
-        dp[0] = true;
-        int i = 0;
-        while (i < n && dp[i]) {
-            int j = Math.min(i + nums[i], n - 1);
-            if (j == n - 1) {
-                dp[j] = true;
-                break;
+        // dp[i]表示从[0,i]范围内的任意位置出发，能够到达的最远位置
+        int[] dp = new int[n];
+        dp[0] = nums[0];
+        for (int i = 1; i < n; i++) {
+            if (i > dp[i - 1]) {
+                return false;
+            } else {
+                dp[i] = Math.max(dp[i - 1], i + nums[i]);
+                if (dp[i] >= n - 1) {
+                    return true;
+                }
             }
-            while (j > i) {
-                dp[j] = true;
-                j--;
-            }
-            i++;
         }
-        return dp[n - 1];
+        return true;
     }
 }
 ```
-## 3. 双指针
+## 3. 贪心 + 双指针
 ### Java
 ```java
 class Solution {

@@ -48,18 +48,21 @@ public class No_55_JumpGame {
         public boolean canJump(int[] nums) {
             // 1 <= nums.length <= 10⁴
             // 0 <= nums[i] <= 10⁵
-            // l表示当前位置
-            int l = 0;
-            // r表示最远可到达的位置
-            int r = 0;
-            while (l <= r) {
-                r = Math.max(r, l + nums[l]);
-                if (r >= nums.length - 1) {
-                    return true;
+            int n = nums.length;
+            // dp[i]表示从[0,i]范围内的任意位置出发，能够到达的最远位置
+            int[] dp = new int[n];
+            dp[0] = nums[0];
+            for (int i = 1; i < n; i++) {
+                if (i > dp[i - 1]) {
+                    return false;
+                } else {
+                    dp[i] = Math.max(dp[i - 1], i + nums[i]);
+                    if (dp[i] >= n - 1) {
+                        return true;
+                    }
                 }
-                l++;
             }
-            return false;
+            return true;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
