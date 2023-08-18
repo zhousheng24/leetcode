@@ -36,15 +36,15 @@
 // 0 <= height[i] <= 10⁴ 
 // 
 //
-// Related Topics 贪心 数组 双指针 👍 4472 👎 0
+// Related Topics 贪心 数组 双指针 👍 4477 👎 0
 
 
 package leetcode.editor.cn;
 
-// Java: Container With Most Water
-public class No_11_ContainerWithMostWater {
+// [LeetCode][11]container-with-most-water
+public class LeetCode11_ContainerWithMostWater {
     public static void main(String[] args) {
-        Solution solution = new No_11_ContainerWithMostWater().new Solution();
+        Solution solution = new LeetCode11_ContainerWithMostWater().new Solution();
         // [1,8,6,2,5,4,8,3,7]
         // [1,2]
         //[1,2,1]

@@ -33,10 +33,10 @@
 
 package leetcode.editor.cn;
 
-// Java: Trapping Rain Water
-public class No_42_TrappingRainWater {
+// [LeetCode][42]trapping-rain-water
+public class LeetCode42_TrappingRainWater {
     public static void main(String[] args) {
-        Solution solution = new No_42_TrappingRainWater().new Solution();
+        Solution solution = new LeetCode42_TrappingRainWater().new Solution();
         // TODO TEST
 
     }

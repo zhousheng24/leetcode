@@ -38,10 +38,10 @@
 
 package leetcode.editor.cn;
 
-// Java: Longest Valid Parentheses
-public class No_32_LongestValidParentheses {
+// [LeetCode][32]longest-valid-parentheses
+public class LeetCode32_LongestValidParentheses {
     public static void main(String[] args) {
-        Solution solution = new No_32_LongestValidParentheses().new Solution();
+        Solution solution = new LeetCode32_LongestValidParentheses().new Solution();
         System.out.println(solution.longestValidParentheses(")()())"));
     }
 

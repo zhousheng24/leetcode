@@ -43,10 +43,10 @@ package leetcode.editor.cn;
 
 import java.util.Arrays;
 
-// Java: Unique Paths
-public class No_62_UniquePaths {
+// [LeetCode][62]unique-paths
+public class LeetCode62_UniquePaths {
     public static void main(String[] args) {
-        Solution solution = new No_62_UniquePaths().new Solution();
+        Solution solution = new LeetCode62_UniquePaths().new Solution();
         // TODO TEST
 
     }

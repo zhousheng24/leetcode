@@ -32,15 +32,15 @@
 // -10⁶ <= nums1[i], nums2[i] <= 10⁶ 
 // 
 //
-// Related Topics 数组 二分查找 分治 👍 6685 👎 0
+// Related Topics 数组 二分查找 分治 👍 6699 👎 0
 
 
 package leetcode.editor.cn;
 
-// Java: Median of Two Sorted Arrays
-public class No_4_MedianOfTwoSortedArrays {
+// [LeetCode][4]median-of-two-sorted-arrays
+public class LeetCode4_MedianOfTwoSortedArrays {
     public static void main(String[] args) {
-        Solution solution = new No_4_MedianOfTwoSortedArrays().new Solution();
+        Solution solution = new LeetCode4_MedianOfTwoSortedArrays().new Solution();
         // TODO TEST
 
     }

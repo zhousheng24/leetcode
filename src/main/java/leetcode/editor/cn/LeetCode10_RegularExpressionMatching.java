@@ -46,7 +46,7 @@
 //previous valid character to match. 
 // 
 //
-// Related Topics 递归 字符串 动态规划 👍 3672 👎 0
+// Related Topics 递归 字符串 动态规划 👍 3682 👎 0
 
 
 package leetcode.editor.cn;
@@ -54,10 +54,10 @@ package leetcode.editor.cn;
 import java.util.ArrayList;
 import java.util.List;
 
-// Java: Regular Expression Matching
-public class No_10_RegularExpressionMatching {
+// [LeetCode][10]regular-expression-matching
+public class LeetCode10_RegularExpressionMatching {
     public static void main(String[] args) {
-        Solution solution = new No_10_RegularExpressionMatching().new Solution();
+        Solution solution = new LeetCode10_RegularExpressionMatching().new Solution();
         String s0 = "aaa";
         String p0 = "a*a";
         System.out.println(solution.isMatch(s0, p0));
@@ -82,6 +82,7 @@ public class No_10_RegularExpressionMatching {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
+//leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         static final String FREQ_ONE = "1";
         static final String FREQ_ANY = "*";

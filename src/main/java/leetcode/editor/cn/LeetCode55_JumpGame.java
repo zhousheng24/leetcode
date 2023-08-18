@@ -35,10 +35,10 @@
 
 package leetcode.editor.cn;
 
-// Java: Jump Game
-public class No_55_JumpGame {
+// [LeetCode][55]jump-game
+public class LeetCode55_JumpGame {
     public static void main(String[] args) {
-        Solution solution = new No_55_JumpGame().new Solution();
+        Solution solution = new LeetCode55_JumpGame().new Solution();
         solution.canJump(new int[]{3, 2, 1});
 
     }

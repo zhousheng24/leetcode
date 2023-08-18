@@ -51,10 +51,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-// Java: 3Sum
-public class No_15_ThreeSum {
+// [LeetCode][15]3sum
+public class LeetCode15_ThreeSum {
     public static void main(String[] args) {
-        Solution solution = new No_15_ThreeSum().new Solution();
+        Solution solution = new LeetCode15_ThreeSum().new Solution();
         // [-1,0,1,2,-1,-4]
         int[] nums0 = {-1, 0, 1, 2, -1, -4};
         List<List<Integer>> result0 = solution.threeSum(nums0);

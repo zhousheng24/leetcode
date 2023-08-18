@@ -38,15 +38,15 @@
 //leading zeros. 
 // 
 //
-// Related Topics 递归 链表 数学 👍 9855 👎 0
+// Related Topics 递归 链表 数学 👍 9889 👎 0
 
 
 package leetcode.editor.cn;
 
-// Java: Add Two Numbers
-public class No_2_AddTwoNumbers {
+// [LeetCode][2]add-two-numbers
+public class LeetCode2_AddTwoNumbers {
     public static void main(String[] args) {
-        Solution solution = new No_2_AddTwoNumbers().new Solution();
+        Solution solution = new LeetCode2_AddTwoNumbers().new Solution();
         // TODO TEST
 
     }
@@ -98,8 +98,8 @@ public class No_2_AddTwoNumbers {
 
 
     }
-//leetcode submit region end(Prohibit modification and deletion)
 
+    //leetcode submit region end(Prohibit modification and deletion)
     public class ListNode {
         int val;
         ListNode next;
@@ -116,6 +116,4 @@ public class No_2_AddTwoNumbers {
             this.next = next;
         }
     }
-
-
 }

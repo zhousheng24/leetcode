@@ -24,19 +24,17 @@
 // s consist of only digits and English letters. 
 // 
 //
-// Related Topics 字符串 动态规划 👍 6695 👎 0
+// Related Topics 字符串 动态规划 👍 6710 👎 0
 
 
 package leetcode.editor.cn;
 
-// Java: Longest Palindromic Substring
-public class No_5_LongestPalindromicSubstring {
+// [LeetCode][5]longest-palindromic-substring
+public class LeetCode5_LongestPalindromicSubstring {
     public static void main(String[] args) {
-        Solution solution = new No_5_LongestPalindromicSubstring().new Solution();
-        // TODO TEST
+        Solution solution = new LeetCode5_LongestPalindromicSubstring().new Solution();
         String s = "abb";
         solution.longestPalindrome(s);
-
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)

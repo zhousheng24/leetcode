@@ -36,18 +36,17 @@
 // s consists of English letters, digits, symbols and spaces. 
 // 
 //
-// Related Topics 哈希表 字符串 滑动窗口 👍 9447 👎 0
+// Related Topics 哈希表 字符串 滑动窗口 👍 9492 👎 0
 
 
 package leetcode.editor.cn;
 
 import java.util.Arrays;
 
-// Java: Longest Substring Without Repeating Characters
-public class No_3_LongestSubstringWithoutRepeatingCharacters {
+// [LeetCode][3]longest-substring-without-repeating-characters
+public class LeetCode3_LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
-        Solution solution = new No_3_LongestSubstringWithoutRepeatingCharacters().new Solution();
-        // TODO TEST
+        Solution solution = new LeetCode3_LongestSubstringWithoutRepeatingCharacters().new Solution();
         String s = "abba";
         solution.lengthOfLongestSubstring(s);
     }

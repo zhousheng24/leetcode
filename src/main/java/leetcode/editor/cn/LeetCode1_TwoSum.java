@@ -44,7 +44,7 @@
 //O(n²)
 // time complexity?
 //
-// Related Topics 数组 哈希表 👍 17448 👎 0
+// Related Topics 数组 哈希表 👍 17500 👎 0
 
 
 package leetcode.editor.cn;
@@ -52,10 +52,10 @@ package leetcode.editor.cn;
 import java.util.HashMap;
 import java.util.Map;
 
-// Java: Two Sum
-public class No_1_TwoSum {
+// [LeetCode][1]two-sum
+public class LeetCode1_TwoSum {
     public static void main(String[] args) {
-        Solution solution = new No_1_TwoSum().new Solution();
+        Solution solution = new LeetCode1_TwoSum().new Solution();
         // TODO TEST
 
     }

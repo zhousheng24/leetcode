@@ -25,10 +25,10 @@ package leetcode.editor.cn;
 import java.util.ArrayList;
 import java.util.List;
 
-// Java: Generate Parentheses
-public class No_22_GenerateParentheses {
+// [LeetCode][22]generate-parentheses
+public class LeetCode22_GenerateParentheses {
     public static void main(String[] args) {
-        Solution solution = new No_22_GenerateParentheses().new Solution();
+        Solution solution = new LeetCode22_GenerateParentheses().new Solution();
         // TODO TEST
 
     }

@@ -43,10 +43,10 @@ package leetcode.editor.cn;
 import java.util.ArrayList;
 import java.util.List;
 
-// Java: Letter Combinations of a Phone Number
-public class No_17_LetterCombinationsOfAPhoneNumber {
+// [LeetCode][17]letter-combinations-of-a-phone-number
+public class LeetCode17_LetterCombinationsOfAPhoneNumber {
     public static void main(String[] args) {
-        Solution solution = new No_17_LetterCombinationsOfAPhoneNumber().new Solution();
+        Solution solution = new LeetCode17_LetterCombinationsOfAPhoneNumber().new Solution();
         // TODO TEST
 
     }

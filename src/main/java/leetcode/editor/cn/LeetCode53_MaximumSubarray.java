@@ -43,10 +43,10 @@
 
 package leetcode.editor.cn;
 
-// Java: Maximum Subarray
-public class No_53_MaximumSubarray {
+// [LeetCode][53]maximum-subarray
+public class LeetCode53_MaximumSubarray {
     public static void main(String[] args) {
-        Solution solution = new No_53_MaximumSubarray().new Solution();
+        Solution solution = new LeetCode53_MaximumSubarray().new Solution();
         solution.maxSubArray(new int[]{-1});
 
     }

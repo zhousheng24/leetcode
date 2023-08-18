@@ -34,10 +34,10 @@
 
 package leetcode.editor.cn;
 
-// Java: Minimum Path Sum
-public class No_64_MinimumPathSum {
+// [LeetCode][64]minimum-path-sum
+public class LeetCode64_MinimumPathSum {
     public static void main(String[] args) {
-        Solution solution = new No_64_MinimumPathSum().new Solution();
+        Solution solution = new LeetCode64_MinimumPathSum().new Solution();
         // TODO TEST
 
     }

@@ -41,10 +41,10 @@
 
 package leetcode.editor.cn;
 
-// Java: Remove Nth Node From End of List
-public class No_19_RemoveNthNodeFromEndOfList {
+// [LeetCode][19]remove-nth-node-from-end-of-list
+public class LeetCode19_RemoveNthNodeFromEndOfList {
     public static void main(String[] args) {
-        Solution solution = new No_19_RemoveNthNodeFromEndOfList().new Solution();
+        Solution solution = new LeetCode19_RemoveNthNodeFromEndOfList().new Solution();
         // TODO TEST
 
     }
