@@ -71,12 +71,6 @@ public class LeetCode85_MaximalRectangle {
             // dp[i][j][0]表示以matrix[i][j]为右端点的水平最长连续'1'的长度
             // dp[i][j][1]表示以matrix[i][j]为下端点的垂直最长连续'1'的长度
             int[][][] dp = new int[m][n][2];
-            // 初始化xy
-            for (int i = 0; i < m; i++) {
-                for (int j = 0; j < n; j++) {
-                    dp[i][j] = new int[]{0, 0};
-                }
-            }
             if (matrix[0][0] == ONE) {
                 dp[0][0][0] = 1;
                 dp[0][0][1] = 1;
