@@ -59,7 +59,6 @@ public class LeetCode85_MaximalRectangle {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         static final char ONE = '1';
-        static final char ZERO = '0';
 
         public int maximalRectangle(char[][] matrix) {
             // rows == matrix.length
@@ -102,14 +101,12 @@ public class LeetCode85_MaximalRectangle {
                     if (matrix[i][j] == ONE) {
                         dp[i][j][0] = dp[i][j - 1][0] + 1;
                         dp[i][j][1] = dp[i - 1][j][1] + 1;
-                        int x = Integer.MAX_VALUE;
-                        int y = 0;
-                        int i0 = i;
-                        while (i - i0 + 1 <= dp[i][j][1]) {
-                            x = Math.min(x, dp[i0][j][0]);
-                            y++;
+                        int x = dp[i][j][0];
+                        int y = 1;
+                        while (y <= dp[i][j][1]) {
+                            x = Math.min(x, dp[i - y + 1][j][0]);
                             max = Math.max(max, x * y);
-                            i0--;
+                            y++;
                         }
                     }
                 }
